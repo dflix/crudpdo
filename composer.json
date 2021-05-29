@@ -1,0 +1,22 @@
+{
+    "name": "dflix/crudpdo",
+    "description": "CRUD em PDP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcio Leite",
+            "email": "mbleusou@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+        "config" : {
+        "vendor-dir" : "lib_ext"
+    },
+        "autoload" : {
+        "psr-4":{
+            "Source\\" : "_app"
+        }
+    }
+}
